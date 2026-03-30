@@ -3,12 +3,15 @@ import React from 'react';
 const NavBar = () => {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm max-w-7xl mx-auto">
-        <div className="navbar-start">
-          <h1 className="text-4xl font-semibold">DigiTools</h1>
+      <div className=" sticky top-0 z-100 bg-base-100 shadow-sm">
+        <div className="navbar max-w-7xl mx-auto">
+          <div className="navbar-start">
+            <h1 className="text-4xl font-bold bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent">
+              DigiTools
+            </h1>
         </div>
         <div className="navbar-center">
-          <ul className="flex gap-8">
+          <ul className="hidden lg:flex gap-10 font-semibold">
             <li>
               <a href="#">Products</a>
             </li>
@@ -26,7 +29,7 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end gap-2">
           <button className="btn btn-ghost btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,10 +47,13 @@ const NavBar = () => {
               />{' '}
             </svg>
           </button>
-          <button className="btn">Login</button>
-          <button className="btn btn-primary rounded-full bg">Get Started</button>
+          <button className="btn btn-ghost">Login</button>
+          <button className="btn btn-primary rounded-full bg bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white">
+            Get Started
+          </button>
         </div>
-      </div>
+        </div>
+        </div>
     </>
   );
 };
