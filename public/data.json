@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Pro",
+    "description": "Advanced AI-powered resume builder designed for professionals with ATS optimization and real-time feedback.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "ATS optimization engine",
+      "AI content suggestions",
+      "Premium templates library",
+      "Export to PDF & DOCX",
+      "Real-time score analysis"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  },
+  {
+    "id": 2,
+    "name": "Notion Master Kit",
+    "description": "All-in-one productivity system with premium Notion templates for business, study, and personal workflows.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ premium templates",
+      "Business dashboards",
+      "Student planner system",
+      "Finance tracker",
+      "Lifetime updates"
+    ],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg"
+  },
+  {
+    "id": 3,
+    "name": "Figma UI Kit Pro",
+    "description": "Professional UI kit with modern components, design systems, and ready-to-use layouts.",
+    "price": 39,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "500+ UI components",
+      "Auto layout ready",
+      "Design system included",
+      "Dark & light mode",
+      "Responsive layouts"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968704.png"
+  },
+  {
+    "id": 4,
+    "name": "AI Content Studio",
+    "description": "Generate blogs, ads, and social media content using powerful AI writing tools.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "AI blog generator",
+      "SEO optimization tools",
+      "Social media captions",
+      "Multi-language support",
+      "Content templates"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4712/4712109.png"
+  },
+  {
+    "id": 5,
+    "name": "Startup Pitch Deck Pro",
+    "description": "Investor-ready pitch deck templates crafted for startups and entrepreneurs.",
+    "price": 59,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "30+ pitch templates",
+      "Investor-ready slides",
+      "Editable charts",
+      "Business model canvas",
+      "PowerPoint & Google Slides support"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
+  },
+  {
+    "id": 6,
+    "name": "Dev Portfolio Builder",
+    "description": "Create stunning developer portfolios with pre-built components and hosting support.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Modern portfolio templates",
+      "Dark/light themes",
+      "SEO optimized",
+      "GitHub integration",
+      "One-click deployment"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721297.png"
+  },
+  {
+    "id": 7,
+    "name": "AI Video Generator",
+    "description": "Turn text into high-quality videos with voiceovers, animations, and subtitles.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Text-to-video AI",
+      "Voiceover generator",
+      "Auto subtitles",
+      "Stock media library",
+      "4K export"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/727/727245.png"
+  },
+  {
+    "id": 8,
+    "name": "Premium Icon Pack",
+    "description": "High-quality icon library for modern web and mobile applications.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "5000+ icons",
+      "SVG & PNG formats",
+      "Customizable colors",
+      "Regular updates",
+      "Commercial license"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828919.png"
+  },
+  {
+    "id": 9,
+    "name": "Advanced SEO Toolkit",
+    "description": "Complete SEO suite for keyword research, ranking analysis, and site optimization.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Keyword research tool",
+      "Competitor analysis",
+      "Backlink tracking",
+      "Site audit reports",
+      "Rank tracking dashboard"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png"
+  },
+  {
+    "id": 10,
+    "name": "E-commerce Growth Kit",
+    "description": "Boost your online store with proven strategies, templates, and automation tools.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Sales funnel templates",
+      "Email marketing system",
+      "Conversion optimization tools",
+      "Analytics dashboard",
+      "Automation workflows"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/891/891462.png"
+  }
+]

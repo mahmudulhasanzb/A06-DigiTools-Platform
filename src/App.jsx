@@ -10,6 +10,12 @@ import Pricing from './components/Pricing/Pricing'
 import OptionalSection from './components/OptionalSection/OptionalSection'
 import Cart from './components/Cart/Cart'
 
+const getProductData = async () => {
+  const res = await fetch("data.json")
+  return res.json()
+}
+const productDataPromise = getProductData();
+
 function App() {
   return (
     <>
@@ -35,7 +41,8 @@ function App() {
           </button>
         </div>
         </div>
-      {/* Products and cart section will colditionally render here */}
+        {/* Products and cart section will colditionally render here */}
+        <Products productDataPromise={productDataPromise}></Products>
       </div>
       
       <Steps></Steps>
