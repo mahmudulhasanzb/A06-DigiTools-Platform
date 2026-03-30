@@ -16,7 +16,7 @@ const Steps = () => {
             </p>
           </div>
 
-          <div className="flex flex-row sm:flex-col lg:flex-row md:flex-row gap-4 mt-10 justify-center items-center">
+          <div className="flex md:flex-row flex-col gap-4 mt-10 justify-center items-center">
             <div className="card max-w-75 bg-base-100 shadow-lg">
               <div className="flex justify-end w-full p-2">
                 <h1 className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full text-center px-2 py-1 font-semibold">

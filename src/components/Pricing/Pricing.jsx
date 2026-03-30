@@ -9,7 +9,7 @@ const Pricing = () => {
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
-      <div className="flex justify-center items-center gap-5">
+      <div className="flex justify-center items-center gap-5 md:flex-row flex-col">
         {/* Starter */}
         <div className="card bg-base-200 shadow-sm text-black max-w-90">
           <div className="card-body p-3">

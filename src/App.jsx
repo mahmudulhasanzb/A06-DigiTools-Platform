@@ -7,6 +7,7 @@ import Stats from './components/Stats/Stats'
 import Products from './components/Products/Products'
 import Steps from './components/Steps/Steps'
 import Pricing from './components/Pricing/Pricing'
+import OptionalSection from './components/OptionalSection/OptionalSection'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       </div>
       <Steps></Steps>
       <Pricing></Pricing>
+      <OptionalSection></OptionalSection>
       {/* footer */}
       <Footer></Footer>
     </>

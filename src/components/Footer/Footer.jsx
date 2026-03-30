@@ -81,7 +81,7 @@ const Footer = () => {
             </div>
           </nav>
 
-          {/* Bottom Section */}
+
           {/* Bottom Section */}
           <div className="col-span-full border-t border-white pt-6 mt-6 w-full flex flex-row items-center justify-between text-center gap-3">
             <p>Copyright © 2026 - All right reserved by DigiTools Ltd.</p>
