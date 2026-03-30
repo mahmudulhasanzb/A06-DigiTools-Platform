@@ -4,9 +4,14 @@ import { toast } from 'react-toastify';
 const ProductCards = ({ data, cards, setCards}) => {
   const [isBought, setIsBought] = useState(false);
   const handleBoughtBtn = () => {
+    const isFound = cards.find(item => item.id === data.id);
+    if (isFound) {
+      toast.error('Item already in cart');
+      return;
+    }
+    setCards([...cards, data]);
     setIsBought(true);
-    setCards([...cards, data])
-    // {isBought ? toast.error('item already added') : toast.success('added to cart')}
+    toast.success('Added to cart');
   };
 
   const name = data.name;

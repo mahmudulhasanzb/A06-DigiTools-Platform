@@ -18,7 +18,7 @@ const getProductData = async () => {
 const productDataPromise = getProductData();
 
 function App() {
-  const [activeCard, secActiveCard] = useState('product');
+  const [activeCard, setActiveCard] = useState('product');
   const [cards, setCards] = useState([]);
 
   return (
@@ -43,14 +43,14 @@ function App() {
               className="tab rounded-full w-30"
               aria-label="Products"
               defaultChecked
-              onClick={() => secActiveCard('product')}
+              onClick={() => setActiveCard('product')}
             />
             <input
               type="radio"
               name="my_tabs_1"
               className="tab rounded-full w-30"
-              aria-label="Cart(0)"
-              onClick={() => secActiveCard('cart')}
+              aria-label={`Cart (${cards.length})`}
+              onClick={() => setActiveCard('cart')}
             />
           </div>
         </div>

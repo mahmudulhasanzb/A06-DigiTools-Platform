@@ -1,15 +1,18 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Cart = ({ cards, setCards }) => {
   const totalPrice = cards.reduce((sum, item) => sum + item.price, 0);
 
   const handlePayment = () => {
     setCards([]);
+    toast.success('Payment successful');
   };
 
-  const handleRemove = id => {
-    const remainingCards = cards.filter(c => c.id !== id)
-    setCards(remainingCards)
+  const handleRemove = index => {
+    const remainingCards = cards.filter((_, i) => i !== index);
+    setCards(remainingCards);
+    toast.success('Item removed successfully');
   };
 
   return (
@@ -25,9 +28,9 @@ const Cart = ({ cards, setCards }) => {
           </div>
         ) : (
           /* Product Card Container */
-          cards.map(card => (
+          cards.map((card, index) => (
             <div
-              key={card.id}
+              key={`${card.id}-${index}`}
               className="flex flex-row justify-between bg-gray-100 rounded-xl items-center p-2"
             >
               <div className="flex flex-row gap-2 items-center">
@@ -42,7 +45,9 @@ const Cart = ({ cards, setCards }) => {
                 </div>
               </div>
               <button
-                onClick={()=>{handleRemove(card.id)}}
+                onClick={() => {
+                  handleRemove(index);
+                }}
                 className="btn btn-ghost text-red-500 rounded-full bg-transparent hover:bg-red-500 hover:text-white"
               >
                 Remove
