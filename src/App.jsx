@@ -8,6 +8,7 @@ import Products from './components/Products/Products'
 import Steps from './components/Steps/Steps'
 import Pricing from './components/Pricing/Pricing'
 import OptionalSection from './components/OptionalSection/OptionalSection'
+import Cart from './components/Cart/Cart'
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
       <Banner></Banner>
       <Stats></Stats>
 
+      <div className='max-w-7xl mx-auto'>
       <div className="flex flex-col justify-center items-center space-y-4">
         <div className="flex flex-col justify-center items-center space-y-2">
-          <h2 className="text-3xl font-bold">Premium Digital Products</h2>
-          <p className="text-sm text-center text-gray-500 max-w-md line-clamp-2">
+          <h2 className="text-4xl font-bold">Premium Digital Products</h2>
+          <p className="text-md text-center text-gray-500 max-w-md line-clamp-2">
             Choose from our curated collection of premium digital products
             designed to boost your productivity and creativity.
           </p>
@@ -32,8 +34,10 @@ function App() {
             Cart <span>(0)</span>
           </button>
         </div>
-        <Products></Products>
+        </div>
+      {/* Products and cart section will colditionally render here */}
       </div>
+      
       <Steps></Steps>
       <Pricing></Pricing>
       <OptionalSection></OptionalSection>
