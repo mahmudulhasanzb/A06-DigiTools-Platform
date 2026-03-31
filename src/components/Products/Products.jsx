@@ -4,7 +4,7 @@ import ProductCards from './ProductCards/ProductCards';
 const Products = ({ productDataPromise, cards, setCards }) => {
   const productData = use(productDataPromise);
   return (
-    <div className="grid grid-cols-3 gap-5 mt-10 mb-20" id="product">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10 mb-20" id="product">
       {productData.map(data => {
         return (
           <ProductCards

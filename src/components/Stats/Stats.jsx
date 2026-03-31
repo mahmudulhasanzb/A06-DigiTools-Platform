@@ -3,7 +3,7 @@ import React from 'react';
 const Stats = () => {
   return (
     <div className="mt-10 mb-20 py-15 w-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white">
-      <div className=" flex md:flex-row lg:flex-row flex-col gap-10 justify-between items-center text-center max-w-5xl mx-auto">
+      <div className="flex md:flex-row lg:flex-row flex-col gap-10 justify-between items-center text-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div>
           <p className="text-3xl font-bold">50K+</p>
           <p>Active Users</p>

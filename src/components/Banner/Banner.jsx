@@ -10,38 +10,38 @@ const Banner = () => {
         id="home"
         className="relative min-w-full flex justify-center items-center overflow-hidden py-10 px-4"
       >
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10 w-full">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10 w-full px-4 sm:px-6 lg:px-8">
           {/* Left Content */}
           <div className="space-y-6">
             <div className="inline-flex items-center gap-2 text-sm font-medium px-5 py-2 rounded-full bg-[#a8a8ff]/30 text-[#7b39f6]">
               <img src={toolTip} /> New: AI-Powered Design Tools
             </div>
 
-            <h1 className="text-5xl lg:text-7xl font-bold leading-tight tracking-tighter">
-              Supercharge Your
-              <br />
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight tracking-tighter text-center lg:text-left">
+              Supercharge Your{' '}
+              <br className="hidden sm:block" />
               Digital Workflow
             </h1>
 
-            <p className="text-xl text-zinc-500 max-w-lg leading-relaxed">
+            <p className="text-lg sm:text-xl text-zinc-500 max-w-lg leading-relaxed text-center lg:text-left mx-auto lg:mx-0">
               Access premium AI tools, design assets, templates, and
               productivity software—all in one place. Start creating faster
               today. Explore Products.
             </p>
 
-            <div className="flex flex-wrap gap-4 pt-4">
-              <button className="btn btn-primary rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white">
+            <div className="flex flex-wrap gap-4 pt-4 justify-center lg:justify-start">
+              <button className="btn btn-primary rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white border-none px-6">
                 Explore Products
               </button>
-              <button className="btn btn-outline btn-ghost rounded-full border-[#4f39f6] text-[#9514fa] hover:bg-linear-to-r from-[#4f39f6] to-[#9514fa] hover:text-white">
+              <button className="btn btn-outline btn-ghost rounded-full border-[#4f39f6] text-[#9514fa] hover:bg-linear-to-r from-[#4f39f6] to-[#9514fa] hover:text-white px-6">
                 <CiPlay1 className="text-2xl" /> Watch Demo
               </button>
             </div>
           </div>
 
           {/* Right Image */}
-          <div className="flex justify-center lg:justify-end items-center h-full">
-            <img className="" src={bannerImg} />
+          <div className="flex justify-center lg:justify-end items-center h-full w-full">
+            <img className="w-full max-w-lg lg:max-w-none h-auto object-contain" src={bannerImg} alt="Banner" />
           </div>
         </div>
       </div>

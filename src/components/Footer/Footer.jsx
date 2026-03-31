@@ -4,15 +4,14 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-[#101727] text-white ">
-        <div className="mx-auto max-w-7xl footer p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="mx-auto max-w-7xl footer p-10 grid grid-cols-2 lg:grid-cols-5 gap-8 px-4 sm:px-6 lg:px-8">
           {/* Logo & Info */}
-          <aside>
-            <h1 className="text-4xl font-semibold">DigiTools</h1>
-            <p>
-              Premium digital tools for creators,
-              <br />
-              professionals, and businesses.
-              <br />
+          <aside className="col-span-2 lg:col-span-1">
+            <h1 className="text-3xl sm:text-4xl font-bold bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent mb-4">
+              DigiTools
+            </h1>
+            <p className="text-gray-400 max-w-xs">
+              Premium digital tools for creators, professionals, and businesses.
               Work smarter with our suite of powerful tools.
             </p>
           </aside>
@@ -92,9 +91,9 @@ const Footer = () => {
           </nav>
 
           {/* Bottom Section */}
-          <div className="col-span-full border-t border-white pt-6 mt-6 w-full flex flex-row items-center justify-between text-center gap-3">
-            <p>Copyright © 2026 - All right reserved by DigiTools Ltd.</p>
-            <div className="flex gap-6">
+          <div className="col-span-full border-t border-gray-800 pt-8 mt-4 w-full flex flex-col sm:flex-row items-center justify-between text-center sm:text-left gap-6 text-gray-400 text-sm">
+            <p>Copyright © 2026 - All rights reserved by DigiTools Ltd.</p>
+            <div className="flex flex-wrap justify-center gap-6">
               <a className="link link-hover">Privacy Policy</a>
               <a className="link link-hover">Terms of Service</a>
               <a className="link link-hover">Cookies</a>

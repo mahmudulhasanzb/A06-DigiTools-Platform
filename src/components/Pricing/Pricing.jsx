@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pricing = () => {
   return (
-    <div className="max-w-7xl mx-auto space-y-10 mt-20 mb-20">
+    <div className="max-w-7xl mx-auto space-y-10 mt-20 mb-20" id='pricing'>
       <div className="text-center">
         <h1 className="text-4xl font-bold">Simple, Transparent Pricing</h1>
         <p className="text-sm text-gray-500">
@@ -11,7 +11,7 @@ const Pricing = () => {
       </div>
       <div className="flex justify-center items-center gap-5 md:flex-row flex-col">
         {/* Starter */}
-        <div className="card bg-base-200 shadow-sm text-black max-w-90">
+        <div className="card bg-base-200 shadow-sm text-black w-full max-w-sm mx-auto">
           <div className="card-body p-3">
             <h2 className="text-2xl font-bold">Starter</h2>
             <p className="text-sm">Best for getting started</p>
@@ -96,7 +96,7 @@ const Pricing = () => {
           </div>
         </div>
         {/* Pro */}
-        <div className="card bg-linear-to-r from-[#4f39f6] to-[#9514fa] shadow-sm text-white max-w-90">
+        <div className="card bg-linear-to-r from-[#4f39f6] to-[#9514fa] shadow-sm text-white w-full max-w-sm mx-auto">
           <div className="flex justify-center absolute -top-2 left-1/2 transform -translate-x-1/2">
             <span className="badge badge-xs badge-center badge-warning px-4 py-3 rounded-full bg-amber-300">
               Most Popular
@@ -220,7 +220,7 @@ const Pricing = () => {
           </div>
         </div>
         {/* Enterprise */}
-        <div className="card bg-base-200 shadow-sm text-black max-w-90">
+        <div className="card bg-base-200 shadow-sm text-black w-full max-w-sm mx-auto">
           <div className="card-body p-3">
             <h2 className="text-2xl font-bold">Enterprise</h2>
             <p className="text-sm">Best for Teams and Businesses</p>

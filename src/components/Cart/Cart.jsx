@@ -17,7 +17,7 @@ const Cart = ({ cards, setCards }) => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto mt-20 mb-20">
+    <div className="max-w-7xl mx-auto mt-20 mb-20" id='cart'>
       <div className="max-w-5xl mx-auto border border-gray-200 p-5 space-y-4 rounded-xl mt-10 mb-20">
         {/* Cart Title */}
         <h2 className="text-2xl font-bold text-start">Your Cart</h2>

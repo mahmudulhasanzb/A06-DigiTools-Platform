@@ -7,16 +7,16 @@ const Steps = () => {
   return (
     <>
       <div className="bg-[#f5f5f5]">
-        <div className="max-w-7xl mx-auto mt-10 mb-10 py-20">
-          <div className="flex flex-col justify-center items-center">
-            <h1 className="text-3xl font-bold">Get Started in 3 Stepts</h1>
-            <p className="text-sm text-gray-500">
-              Start using premium digital tools in minute not hours.
+        <div className="max-w-7xl mx-auto mt-10 mb-10 py-10 sm:py-20 px-4 sm:px-6 lg:px-8" id='steps'>
+          <div className="flex flex-col justify-center items-center text-center">
+            <h1 className="text-3xl sm:text-4xl font-bold">Get Started in 3 Steps</h1>
+            <p className="text-sm sm:text-base text-gray-500 max-w-lg">
+              Start using premium digital tools in minutes, not hours.
             </p>
           </div>
 
           <div className="flex md:flex-row flex-col gap-4 mt-10 justify-center items-center">
-            <div className="card max-w-75 bg-base-100 shadow-lg">
+            <div className="card w-full max-w-sm bg-base-100 shadow-lg">
               <div className="flex justify-end w-full p-2">
                 <h1 className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full text-center px-2 py-1 font-semibold">
                   01
@@ -37,7 +37,7 @@ const Steps = () => {
                 </p>
               </div>
             </div>
-            <div className="card max-w-75 bg-base-100 shadow-lg">
+            <div className="card w-full max-w-sm bg-base-100 shadow-lg">
               <div className="flex justify-end w-full p-2">
                 <h1 className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full text-center px-2 py-1 font-semibold">
                   02
@@ -57,7 +57,7 @@ const Steps = () => {
                 </p>
               </div>
             </div>
-            <div className="card max-w-75 bg-base-100 shadow-lg">
+            <div className="card w-full max-w-sm bg-base-100 shadow-lg">
               <div className="flex justify-end w-full p-2">
                 <h1 className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full text-center px-2 py-1 font-semibold">
                   03

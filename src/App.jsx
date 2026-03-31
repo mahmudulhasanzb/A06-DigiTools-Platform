@@ -27,7 +27,7 @@ function App() {
       <Banner></Banner>
       <Stats></Stats>
 
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col justify-center items-center space-y-4">
           <div className="flex flex-col justify-center items-center space-y-2">
             <h2 className="text-4xl font-bold">Premium Digital Products</h2>
@@ -40,7 +40,7 @@ function App() {
             <input
               type="radio"
               name="my_tabs_1"
-              className={`tab rounded-full w-30 ${activeCard === 'product' && 'bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white'}`}
+              className={`tab rounded-full w-24 sm:w-30 ${activeCard === 'product' && 'bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white'}`}
               aria-label="Products"
               defaultChecked
               onClick={() => setActiveCard('product')}
@@ -48,7 +48,7 @@ function App() {
             <input
               type="radio"
               name="my_tabs_1"
-              className={`tab rounded-full w-30 ${activeCard === 'cart' && 'bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white'}`}
+              className={`tab rounded-full w-24 sm:w-30 ${activeCard === 'cart' && 'bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white'}`}
               aria-label={`Cart (${cards.length})`}
               onClick={() => setActiveCard('cart')}
             />

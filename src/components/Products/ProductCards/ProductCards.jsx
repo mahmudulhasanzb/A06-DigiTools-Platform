@@ -24,8 +24,8 @@ const ProductCards = ({ data, cards, setCards }) => {
   const features = data.features;
 
   return (
-    <div className="card max-w-96 bg-base-200 shadow-md hover:shadow-lg hover:-translate-y-2 hover:bg-accent/5 transition-shadow transition-transform duration-300">
-      <div className="card-body p-4">
+    <div className="card w-full max-w-sm mx-auto bg-base-200 shadow-md hover:shadow-lg hover:-translate-y-2 hover:bg-accent/5 transition-shadow transition-transform duration-300">
+      <div className="card-body p-4 sm:p-6">
         <div className="flex justify-end ">
           <span
             className={`badge badge-lg badge-soft rounded-full font-semibold ${tagType === 'popular' ? 'bg-primary/20 text-blue-900' : tagType === 'best seller' ? 'bg-warning/50 text-yellow-900' : 'bg-secondary/30 text-secondary'}`}
