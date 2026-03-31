@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar cards={cards} setActiveCard={setActiveCard}></NavBar>
       <Banner></Banner>
       <Stats></Stats>
 
@@ -40,7 +40,7 @@ function App() {
             <input
               type="radio"
               name="my_tabs_1"
-              className="tab rounded-full w-30"
+              className={`tab rounded-full w-30 ${activeCard === 'product' && 'bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white'}`}
               aria-label="Products"
               defaultChecked
               onClick={() => setActiveCard('product')}
@@ -48,7 +48,7 @@ function App() {
             <input
               type="radio"
               name="my_tabs_1"
-              className="tab rounded-full w-30"
+              className={`tab rounded-full w-30 ${activeCard === 'cart' && 'bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white'}`}
               aria-label={`Cart (${cards.length})`}
               onClick={() => setActiveCard('cart')}
             />

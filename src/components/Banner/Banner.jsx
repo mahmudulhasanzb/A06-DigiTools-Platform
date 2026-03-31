@@ -19,7 +19,7 @@ const Banner = () => {
 
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight tracking-tighter">
               Supercharge Your
-              <br/>
+              <br />
               Digital Workflow
             </h1>
 

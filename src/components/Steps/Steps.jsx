@@ -3,7 +3,6 @@ import userImg from '../../assets/user.png';
 import packageImg from '../../assets/package.png';
 import rocketImg from '../../assets/rocket.png';
 
-
 const Steps = () => {
   return (
     <>

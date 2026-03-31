@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaShoppingCart } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 
 const Cart = ({ cards, setCards }) => {
@@ -23,8 +24,11 @@ const Cart = ({ cards, setCards }) => {
 
         {/* Empty Cart Message */}
         {cards.length === 0 ? (
-          <div className="text-center mt-10 mb-40">
-            <h1 className="text-2xl font-bold">Your Cart Is empty</h1>
+          <div className="text-center mt-10 mb-10">
+            <FaShoppingCart className="text-6xl text-gray-500 mx-auto mb-4" />
+            <h1 className="text-2xl font-bold text-red-300">
+              Your Cart Is empty
+            </h1>
           </div>
         ) : (
           /* Product Card Container */

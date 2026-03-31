@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 
-const ProductCards = ({ data, cards, setCards}) => {
+const ProductCards = ({ data, cards, setCards }) => {
   const [isBought, setIsBought] = useState(false);
   const handleBoughtBtn = () => {
     const isFound = cards.find(item => item.id === data.id);
@@ -24,7 +24,7 @@ const ProductCards = ({ data, cards, setCards}) => {
   const features = data.features;
 
   return (
-    <div className="card max-w-96 bg-base-200 shadow-md">
+    <div className="card max-w-96 bg-base-200 shadow-md hover:shadow-lg hover:-translate-y-2 hover:bg-accent/5 transition-shadow transition-transform duration-300">
       <div className="card-body p-4">
         <div className="flex justify-end ">
           <span
@@ -34,7 +34,7 @@ const ProductCards = ({ data, cards, setCards}) => {
           </span>
         </div>
         <img
-          className="max-w-10 w-full p-2 bg-white rounded-full border border-gray-200"
+          className="max-w-12 w-full p-2 bg-white rounded-full border border-gray-200"
           src={icon}
           alt="image"
         />
@@ -74,7 +74,7 @@ const ProductCards = ({ data, cards, setCards}) => {
             onClick={handleBoughtBtn}
             className={`btn btn-primary btn-block rounded-full ${isBought ? 'bg-green-500 border-none' : 'bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white'}`}
           >
-            {isBought ? 'Bought' : 'Buy Now'}
+            {isBought ? 'Added To Cart' : 'Buy Now'}
           </button>
         </div>
       </div>

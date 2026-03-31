@@ -1,16 +1,52 @@
-# React + Vite
+# 🚀 Assignment 6
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💻 Digital Tools Platform
 
-Currently, two official plugins are available:
+## 📖 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This is a modern web platform where users can explore and purchase premium
+digital tools.  
+Users can browse different tools, view details, and manage their purchases
+through an interactive and user-friendly interface.  
+The platform focuses on simplicity, performance, and a smooth user experience.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- DaisyUI
+- React Toastify
+- React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- Users can browse a collection of digital tools.
+- Users can buy digital tools.
+- Users can add tools to their cart.
+- Users can remove tools from their cart.
+- Users can see real-time cart updates.
+- Users can view total price of selected tools.
+- Users can proceed to checkout.
+- Toast notifications for user actions (add/remove).
+- Responsive design for all devices.
+
+---
+
+## 🌐 Live Demo
+
+👉 https://digitoolss.netlify.app
+
+## 🔗 GitHub Repository
+
+👉 https://github.com/mahmudulhasanzb/A06-DigiTools-Platform
+
+---
+
+## 👨‍💻 Author
+
+Mahmudul Hasan
