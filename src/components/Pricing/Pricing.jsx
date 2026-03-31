@@ -34,7 +34,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>High-resolution image generation</span>
+                <span>5 Free AI generations per day</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -51,7 +51,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Customizable style templates</span>
+                <span>Standard resolution images</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -68,7 +68,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>Access to 3 style templates</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -85,7 +85,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>Community support access</span>
               </li>
             </ul>
             <div className="mt-3">
@@ -124,7 +124,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>High-resolution image generation</span>
+                <span>Unlimited AI generations</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -141,7 +141,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Customizable style templates</span>
+                <span>4K High-resolution images</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -158,7 +158,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>All style templates included</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -175,7 +175,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>Batch processing (up to 50)</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -192,7 +192,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>Priority email support</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -209,7 +209,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>Commercial usage rights</span>
               </li>
             </ul>
             <div className="mt-3">
@@ -243,7 +243,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>High-resolution image generation</span>
+                <span>Everything in Pro plan</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -260,7 +260,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Customizable style templates</span>
+                <span>Full API access & SDKs</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -277,7 +277,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>Custom AI model training</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -294,7 +294,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>Dedicated account manager</span>
               </li>
               <li className="line-clamp-1">
                 <svg
@@ -311,7 +311,7 @@ const Pricing = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>24/7 Phone & Slack support</span>
               </li>
             </ul>
             <div className="mt-3">
